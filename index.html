@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Box &amp; Trianz — Web, design and video for growing businesses</title>
+  <meta name="description" content="Box & Trianz builds reliable websites and supports growing businesses with thoughtful design, polished video and ongoing digital support.">
+  <meta name="theme-color" content="#142238">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { ink: "#142238", teal: "#0B8F91", mist: "#E9F5F4", cream: "#F7F5F0", slate: "#556173" },
+          fontFamily: { sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"] },
+          boxShadow: { soft: "0 24px 70px rgba(20,34,56,.10)" }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-cream font-sans antialiased selection:bg-teal selection:text-white">
+
+  <header class="sticky top-0 z-50 border-b border-ink/10 bg-cream/90 backdrop-blur-xl">
+    <div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-8">
+      <a href="#top" aria-label="Box and Trianz home">
+        <img width="240" src="assets/logo/box-and-trianz-logo-header-full-colour.svg">
+      </a>
+      <nav class="hidden items-center gap-7 text-sm font-semibold md:flex" aria-label="Primary navigation">
+        <a href="#services" class="hover:text-teal">Services</a>
+        <a href="#packages" class="hover:text-teal">Packages</a>
+        <a href="#work" class="hover:text-teal">Work</a>
+        <a href="#process" class="hover:text-teal">Process</a>
+        <a href="#contact" class="rounded-full bg-ink px-5 py-3 text-white transition hover:bg-teal">Start a project</a>
+      </nav>
+      <button id="menuButton" class="grid h-11 w-11 place-items-center rounded-full border border-ink/15 md:hidden" aria-label="Open navigation" aria-expanded="false">
+        <span class="text-xl">☰</span>
+      </button>
+    </div>
+    <nav id="mobileMenu" class="hidden border-t border-ink/10 bg-cream px-5 py-5 md:hidden">
+      <div class="flex flex-col gap-4 font-semibold">
+        <a href="#services">Services</a>
+        <a href="#packages">Packages</a>
+        <a href="#work">Work</a>
+        <a href="#process">Process</a>
+        <a href="#contact" class="text-teal">Start a project →</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <section class="relative overflow-hidden">
+      <div class="grid-fade pointer-events-none absolute inset-0"></div>
+      <div class="mx-auto grid max-w-7xl items-center gap-14 px-5 py-20 sm:px-8 sm:py-28 lg:grid-cols-[1.08fr_.92fr] lg:py-32">
+        <div class="relative z-10">
+          <div class="mb-7 inline-flex items-center gap-2 rounded-full border border-teal/20 bg-white/80 px-4 py-2 text-xs font-bold uppercase text-teal">
+            <span class="h-2 w-2 rounded-full bg-teal"></span>Founder-led web and creative team
+          </div>
+          <h1 class="balance max-w-4xl text-5xl font-semibold leading-[.98] tracking-[-.055em] sm:text-6xl lg:text-7xl">
+            Your web and creative team, <span class="text-teal">without the overhead.</span>
+          </h1>
+          <p class="mt-7 max-w-2xl text-lg leading-8 text-slate sm:text-xl">We help growing businesses launch and maintain a credible digital presence through reliable websites, thoughtful designs and polished video contents.</p>
+          <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+            <a href="#packages" class="rounded-full bg-ink px-7 py-4 text-center font-bold text-white transition hover:-translate-y-0.5 hover:bg-teal">Explore packages</a>
+            <a href="#work" class="rounded-full border border-ink/20 bg-white px-7 py-4 text-center font-bold hover:border-teal hover:text-teal">See selected work</a>
+          </div>
+          <div class="mt-10 flex flex-wrap gap-x-7 gap-y-3 text-sm font-semibold text-slate">
+            <span>✓ One clear point of contact</span>
+            <span>✓ Fixed-scope projects</span>
+            <span>✓ Ongoing support</span>
+          </div>
+        </div>
+        <div class="relative mx-auto w-full max-w-xl">
+          <div class="absolute -left-8 -top-8 h-36 w-36 rounded-full bg-teal/15 blur-2xl"></div>
+          <div class="relative overflow-hidden rounded-[2rem] border border-ink/10 bg-ink p-7 text-white shadow-soft sm:p-9">
+            <div class="flex items-center justify-between border-b border-white/15 pb-6">
+              <div>
+                <p class="eyebrow text-xs font-bold uppercase text-teal-200">One connected team</p>
+                <p class="mt-2 text-2xl font-semibold">Build. Create. Support.</p>
+              </div>
+              <div class="grid h-14 w-14 place-items-center rounded-2xl bg-teal text-2xl font-bold">&amp;</div>
+            </div>
+            <div class="mt-7 space-y-4">
+              <div class="flex items-center gap-4 rounded-2xl bg-white/10 p-4">
+                <span class="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-white/10 text-lg">⌘</span>
+                <div>
+                  <p class="font-bold">Websites &amp; web solutions</p>
+                  <p class="mt-1 text-sm text-white/60">Reliable, responsive and built for the job.</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 rounded-2xl bg-white/10 p-4">
+                <span class="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-white/10 text-xl">◇</span>
+                <div>
+                  <p class="font-bold">Brand design</p>
+                  <p class="mt-1 text-sm text-white/60">A clear visual system people remember.</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 rounded-2xl bg-white/10 p-4">
+                <span class="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-white/10 text-lg">▶</span>
+                <div>
+                  <p class="font-bold">Video content creation & editing</p>
+                  <p class="mt-1 text-sm text-white/60">Polished content from your supplied footage.</p>
+                </div>
+              </div>
+            </div>
+            <p class="mt-7 border-t border-white/15 pt-6 text-sm leading-6 text-white/65">Small enough to know your business. Structured enough to deliver reliably.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="bg-white py-20 sm:py-28">
+      <div class="mx-auto max-w-7xl px-5 sm:px-8">
+        <div class="max-w-3xl">
+          <p class="eyebrow text-xs font-bold uppercase text-teal">What we do</p>
+          <h2 class="balance mt-4 text-4xl font-semibold tracking-[-.04em] sm:text-5xl">The essentials your business needs to show up well.</h2>
+          <p class="mt-6 text-lg leading-8 text-slate">Web development leads the work. Design and video strengthen everything around it.</p>
+        </div>
+        <div class="mt-12 grid gap-5 lg:grid-cols-3">
+          <article class="rounded-[1.75rem] border border-ink/10 bg-cream p-7 sm:p-8">
+            <div class="grid h-12 w-12 place-items-center rounded-2xl bg-ink font-bold text-white">01</div>
+            <h3 class="mt-7 text-2xl font-semibold">Websites &amp; web solutions</h3>
+            <p class="mt-4 leading-7 text-slate">Business websites, e-commerce, landing pages, integrations and custom tools built to be fast and dependable.</p>
+            <ul class="mt-6 space-y-3 text-sm font-semibold">
+              <li>Business and e-commerce websites</li>
+              <li>Landing pages and campaign sites</li>
+              <li>Booking, payment and CRM integrations</li>
+              <li>Custom portals and internal tools</li>
+            </ul>
+          </article>
+          <article class="rounded-[1.75rem] border border-ink/10 bg-mist p-7 sm:p-8">
+            <div class="grid h-12 w-12 place-items-center rounded-2xl bg-teal font-bold text-white">02</div>
+            <h3 class="mt-7 text-2xl font-semibold">Brand design</h3>
+            <p class="mt-4 leading-7 text-slate">Practical visual identity and marketing assets that make your business look coherent wherever clients find you.</p>
+            <ul class="mt-6 space-y-3 text-sm font-semibold">
+              <li>Logo and visual identity</li>
+              <li>Mini brand guidelines</li>
+              <li>Social and campaign graphics</li>
+              <li>Company profiles and pitch decks</li>
+            </ul>
+          </article>
+          <article class="rounded-[1.75rem] border border-ink/10 bg-ink p-7 text-white sm:p-8">
+            <div class="grid h-12 w-12 place-items-center rounded-2xl bg-white/10 font-bold">03</div>
+            <h3 class="mt-7 text-2xl font-semibold">Video content creation & editing</h3>
+            <p class="mt-4 leading-7 text-white/65">Clean, platform-ready edits that help you explain, demonstrate and promote what your business does.</p>
+            <ul class="mt-6 space-y-3 text-sm font-semibold text-white/90">
+              <li>Company and product explainers</li>
+              <li>Short-form promotional videos</li>
+              <li>Testimonials and product demos</li>
+              <li>Captions and basic motion graphics</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="packages" class="py-20 sm:py-28">
+      <div class="mx-auto max-w-7xl px-5 sm:px-8">
+        <div class="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
+          <div class="max-w-3xl">
+            <p class="eyebrow text-xs font-bold uppercase text-teal">Ways to work together</p>
+            <h2 class="balance mt-4 text-4xl font-semibold tracking-[-.04em] sm:text-5xl">Launch once or keep us close.</h2>
+            <p class="mt-6 text-lg leading-8 text-slate">Choose a fixed package for a defined outcome or monthly support for ongoing work.</p>
+          </div>
+          <div class="inline-flex w-fit rounded-full border border-ink/10 bg-white p-1.5 shadow-sm" role="tablist">
+            <button class="tab rounded-full bg-ink px-5 py-3 text-sm font-bold text-white" data-target="oneTime" aria-selected="true">One-time projects</button>
+            <button class="tab rounded-full px-5 py-3 text-sm font-bold text-slate" data-target="ongoing" aria-selected="false">Monthly support</button>
+          </div>
+        </div>
+
+        <div id="oneTime" class="panel mt-12 grid gap-5 lg:grid-cols-3">
+          <article class="flex flex-col rounded-[1.75rem] border border-ink/10 bg-white p-7 sm:p-8">
+            <p class="text-sm font-bold uppercase tracking-wider text-teal">Brand Starter</p>
+            <div class="mt-5 flex items-end gap-2">
+              <span class="text-4xl font-semibold">₦250,000</span>
+              <span class="pb-1 text-sm text-slate">fixed</span>
+            </div>
+            <p class="mt-4 leading-7 text-slate">For a new business that needs a clear, consistent first impression.</p>
+            <ul class="my-7 space-y-3 text-sm">
+              <li>✓ Primary logo and variations</li>
+              <li>✓ Colour and typography system</li>
+              <li>✓ Mini brand guide</li>
+              <li>✓ Four branded templates</li>
+            </ul>
+            <a href="#contact" class="mt-auto font-bold text-teal">Choose Brand Starter →</a>
+          </article>
+          <article class="relative flex flex-col overflow-hidden rounded-[1.75rem] bg-ink p-7 text-white shadow-soft sm:p-8">
+            <span class="absolute right-5 top-5 rounded-full bg-teal px-3 py-1.5 text-xs font-bold uppercase">Core offer</span>
+            <p class="text-sm font-bold uppercase tracking-wider text-teal-200">Website Launch</p>
+            <div class="mt-5 flex items-end gap-2">
+              <span class="text-4xl font-semibold">₦500,000</span>
+              <span class="pb-1 text-sm text-white/55">fixed</span>
+            </div>
+            <p class="mt-4 leading-7 text-white/65">A focused website that gives customers confidence and makes contacting you easy.</p>
+            <ul class="my-7 space-y-3 text-sm text-white/90">
+              <li>✓ Up to five focused pages</li>
+              <li>✓ Responsive design and build</li>
+              <li>✓ Contact or booking integration</li>
+              <li>✓ Basic SEO setup</li>
+              <li>✓ Analytics and handover</li>
+            </ul>
+            <a href="#contact" class="mt-auto font-bold text-teal-200">Choose Website Launch →</a>
+          </article>
+          <article class="flex flex-col rounded-[1.75rem] border border-teal/25 bg-mist p-7 sm:p-8">
+            <p class="text-sm font-bold uppercase tracking-wider text-teal">Brand + Website Launch</p>
+            <div class="mt-5 flex items-end gap-2">
+              <span class="text-4xl font-semibold">₦700,000</span>
+              <span class="pb-1 text-sm text-slate">fixed</span>
+            </div>
+            <p class="mt-4 leading-7 text-slate">A coordinated identity and online presence, delivered through one team.</p>
+            <ul class="my-7 space-y-3 text-sm">
+              <li>✓ Brand Starter package</li>
+              <li>✓ Website Launch package</li>
+              <li>✓ Launch graphics</li>
+              <li>✓ One short promotional edit</li>
+            </ul>
+            <a href="#contact" class="mt-auto font-bold text-teal">Choose Full Launch →</a>
+          </article>
+        </div>
+
+        <div id="ongoing" class="panel mt-12 grid gap-5 lg:grid-cols-3" hidden>
+          <article class="flex flex-col rounded-[1.75rem] border border-ink/10 bg-white p-7 sm:p-8">
+            <p class="text-sm font-bold uppercase tracking-wider text-teal">Website Care</p>
+            <div class="mt-5">
+              <span class="text-sm text-slate">Starting at</span>
+              <div class="text-4xl font-semibold">₦150,000<span class="text-base font-normal text-slate">/month</span></div>
+            </div>
+            <p class="mt-4 leading-7 text-slate">Routine maintenance and small updates without the scramble.</p>
+            <ul class="my-7 space-y-3 text-sm">
+              <li>✓ Updates, backups and monitoring</li>
+              <li>✓ Minor content changes</li>
+              <li>✓ Technical troubleshooting</li>
+              <li>✓ Monthly maintenance summary</li>
+            </ul>
+            <a href="#contact" class="mt-auto font-bold text-teal">Discuss Website Care →</a>
+          </article>
+          <article class="flex flex-col rounded-[1.75rem] border border-teal/25 bg-mist p-7 sm:p-8">
+            <p class="text-sm font-bold uppercase tracking-wider text-teal">Creative Support</p>
+            <div class="mt-5">
+              <span class="text-sm text-slate">Starting at</span>
+              <div class="text-4xl font-semibold">₦300,000<span class="text-base font-normal text-slate">/month</span></div>
+            </div>
+            <p class="mt-4 leading-7 text-slate">A steady design and editing queue for businesses that create regularly.</p>
+            <ul class="my-7 space-y-3 text-sm">
+              <li>✓ Defined monthly graphics</li>
+              <li>✓ Defined short-form video edits</li>
+              <li>✓ Platform-ready resizing</li>
+              <li>✓ One active request at a time</li>
+            </ul>
+            <a href="#contact" class="mt-auto font-bold text-teal">Discuss Creative Support →</a>
+          </article>
+          <article class="flex flex-col rounded-[1.75rem] bg-ink p-7 text-white shadow-soft sm:p-8">
+            <p class="text-sm font-bold uppercase tracking-wider text-teal-200">Digital Partner</p>
+            <div class="mt-5">
+              <span class="text-sm text-white/55">Starting at</span>
+              <div class="text-4xl font-semibold">₦500,000<span class="text-base font-normal text-white/55">/month</span></div>
+            </div>
+            <p class="mt-4 leading-7 text-white/65">Website, design and video support coordinated through one reliable contact.</p>
+            <ul class="my-7 space-y-3 text-sm text-white/90">
+              <li>✓ Website management</li>
+              <li>✓ Graphics and video edits</li>
+              <li>✓ Campaign page updates</li>
+              <li>✓ Priority request queue</li>
+            </ul>
+            <a href="#contact" class="mt-auto font-bold text-teal-200">Discuss Digital Partner →</a>
+          </article>
+        </div>
+
+        <p class="mt-6 text-sm leading-6 text-slate">Prices shown in USD. Local-currency invoicing is available. Custom applications, e-commerce catalogues and work outside package limits are scoped separately.</p>
+      </div>
+    </section>
+
+    <section id="work" class="bg-ink py-20 text-white sm:py-28">
+      <div class="mx-auto max-w-7xl px-5 sm:px-8">
+        <div class="flex flex-col justify-between gap-7 lg:flex-row lg:items-end">
+          <div class="max-w-3xl">
+            <p class="eyebrow text-xs font-bold uppercase text-teal-200">Selected work</p>
+            <h2 class="balance mt-4 text-4xl font-semibold tracking-[-.04em] sm:text-5xl">Useful work, clearly explained.</h2>
+          </div>
+          <p class="max-w-md leading-7 text-white/60">Each case study will show the client problem, what we delivered and the outcome—not just a polished screenshot.</p>
+        </div>
+
+        <div class="mt-12 grid gap-5 lg:grid-cols-3">
+          <article class="project-card overflow-hidden rounded-[1.75rem] border border-white/15 bg-white/5 cursor-pointer" data-project="project1" tabindex="0" role="button" aria-haspopup="dialog">
+            <div class="placeholder grid aspect-[4/3] place-items-center">
+              <img src="assets/project-images/Screenshot 2026-08-25 at 07.27.44.png" style="margin-bottom: 10px;"/>
+              <span class="rounded-full border border-white/20 bg-ink/75 px-4 py-2 text-xs font-bold uppercase tracking-wider text-white/70">Jolena Events</span>
+            </div>
+            <div class="p-7">
+              <p class="text-sm font-bold uppercase tracking-wider text-teal-200">Website project</p>
+              <p class="mt-3 leading-7 text-white/60">Jolena Events is an event-planning business that delivers thoughtfully coordinated experiences for clients celebrating important occasions.</p>
+              <p class="mt-5 text-sm font-bold text-teal-200">View full case study →</p>
+            </div>
+          </article>
+          <article class="project-card overflow-hidden rounded-[1.75rem] border border-white/15 bg-white/5 cursor-pointer" data-project="project2" tabindex="0" role="button" aria-haspopup="dialog">
+            <div class="placeholder grid aspect-[4/3] place-items-center">
+              <img src="assets/project-images/Screenshot 2026-08-25 at 07.21.43.png" style="margin-bottom: 10px;"/>
+              <span class="rounded-full border border-white/20 bg-ink/75 px-4 py-2 text-xs font-bold uppercase tracking-wider text-white/70">IMEK BEAUTY</span>
+            </div>
+            <div class="p-7">
+              <p class="text-sm font-bold uppercase tracking-wider text-teal-200">Website project</p>
+              <p class="mt-3 leading-7 text-white/60">Imek Beauty is a UK-based beauty brand offering lash-care products and accessories through a modern e-commerce website.</p>
+              <p class="mt-5 text-sm font-bold text-teal-200">View full case study →</p>
+            </div>
+          </article>
+          <article class="project-card overflow-hidden rounded-[1.75rem] border border-white/15 bg-white/5 cursor-pointer" data-project="project3" tabindex="0" role="button" aria-haspopup="dialog">
+            <div class="placeholder grid aspect-[4/3] place-items-center">
+              <img src="assets/project-images/Screenshot 2026-08-25 at 07.32.17.png" style="margin-bottom: 10px;"/>
+              <span class="rounded-full border border-white/20 bg-ink/75 px-4 py-2 text-xs font-bold uppercase tracking-wider text-white/70">SavorByLexi</span>
+            </div>
+            <div class="p-7">
+              <p class="text-sm font-bold uppercase tracking-wider text-teal-200">Digital Partner</p>
+              <p class="mt-3 leading-7 text-white/60">SavorByLexi is a food and catering business offering à la carte meals, event catering, food tastings, and online ordering.</p>
+              <p class="mt-5 text-sm font-bold text-teal-200">View full case study →</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- <div class="mt-12 rounded-[2rem] border border-white/15 bg-white/5 p-7 sm:p-10">
+          <div class="grid items-center gap-8 lg:grid-cols-[.75fr_1.25fr]">
+            <div>
+              <p class="eyebrow text-xs font-bold uppercase text-teal-200">Creative portfolio</p>
+              <h3 class="mt-4 text-3xl font-semibold">Design and video samples are coming next.</h3>
+              <p class="mt-4 leading-7 text-white/60">This area is ready for selected work from our graphic-design and video-editing collaborators.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-3 sm:grid-cols-3">
+              <div class="placeholder aspect-square rounded-2xl border border-white/10"></div>
+              <div class="placeholder aspect-square rounded-2xl border border-white/10"></div>
+              <div class="placeholder hidden aspect-square rounded-2xl border border-white/10 sm:block"></div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <section id="process" class="bg-white py-20 sm:py-28">
+      <div class="mx-auto max-w-7xl px-5 sm:px-8">
+        <div class="max-w-3xl">
+          <p class="eyebrow text-xs font-bold uppercase text-teal">How it works</p>
+          <h2 class="balance mt-4 text-4xl font-semibold tracking-[-.04em] sm:text-5xl">Clear steps. No unnecessary theatre.</h2>
+        </div>
+        <div class="mt-12 grid gap-px overflow-hidden rounded-[2rem] border border-ink/10 bg-ink/10 md:grid-cols-4">
+          <article class="bg-cream p-7">
+            <span class="text-sm font-bold text-teal">01</span>
+            <h3 class="mt-8 text-xl font-semibold">Tell us what you need</h3>
+            <p class="mt-3 text-sm leading-6 text-slate">Share the business problem, desired outcome and useful context.</p>
+          </article>
+          <article class="bg-cream p-7">
+            <span class="text-sm font-bold text-teal">02</span>
+            <h3 class="mt-8 text-xl font-semibold">Confirm the scope</h3>
+            <p class="mt-3 text-sm leading-6 text-slate">You receive clear deliverables, responsibilities, timing and cost.</p>
+          </article>
+          <article class="bg-cream p-7">
+            <span class="text-sm font-bold text-teal">03</span>
+            <h3 class="mt-8 text-xl font-semibold">Review the work</h3>
+            <p class="mt-3 text-sm leading-6 text-slate">We build, review internally and bring you in at agreed checkpoints.</p>
+          </article>
+          <article class="bg-cream p-7">
+            <span class="text-sm font-bold text-teal">04</span>
+            <h3 class="mt-8 text-xl font-semibold">Launch or continue</h3>
+            <p class="mt-3 text-sm leading-6 text-slate">Take the final handover or move into a defined support plan.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 sm:py-28">
+      <div class="mx-auto grid max-w-7xl gap-12 px-5 sm:px-8 lg:grid-cols-[.9fr_1.1fr] lg:items-start">
+        <div>
+          <p class="eyebrow text-xs font-bold uppercase text-teal">Why Box &amp; Trianz</p>
+          <h2 class="balance mt-4 text-4xl font-semibold tracking-[-.04em] sm:text-5xl">A small team with accountable delivery.</h2>
+          <p class="mt-6 text-lg leading-8 text-slate">Box &amp; Trianz is a founder-led consultancy supported by trusted specialists in graphic design and video editing. You get specialist input without managing three separate providers.</p>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div class="rounded-2xl border border-ink/10 bg-white p-6">
+            <p class="font-semibold">Technical work comes first</p>
+            <p class="mt-2 text-sm leading-6 text-slate">Reliable delivery matters more than decorative complexity.</p>
+          </div>
+          <div class="rounded-2xl border border-ink/10 bg-white p-6">
+            <p class="font-semibold">One accountable contact</p>
+            <p class="mt-2 text-sm leading-6 text-slate">Scope, feedback and delivery stay coordinated.</p>
+          </div>
+          <div class="rounded-2xl border border-ink/10 bg-white p-6">
+            <p class="font-semibold">Human-reviewed output</p>
+            <p class="mt-2 text-sm leading-6 text-slate">Every deliverable is checked for quality and fit.</p>
+          </div>
+          <div class="rounded-2xl border border-ink/10 bg-white p-6">
+            <p class="font-semibold">Support after launch</p>
+            <p class="mt-2 text-sm leading-6 text-slate">Take the handover or keep a dependable team close.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white py-20 sm:py-28">
+      <div class="mx-auto grid max-w-7xl gap-12 px-5 sm:px-8 lg:grid-cols-[.7fr_1.3fr]">
+        <div>
+          <p class="eyebrow text-xs font-bold uppercase text-teal">FAQs</p>
+          <h2 class="mt-4 text-4xl font-semibold tracking-[-.04em]">Questions, answered.</h2>
+        </div>
+        <div class="divide-y divide-ink/10 border-y border-ink/10">
+          <div class="faq" data-open="true">
+            <button class="faq-button flex w-full items-center justify-between gap-6 py-6 text-left text-lg font-semibold" aria-expanded="true">
+              <span>Are you a full-service marketing agency?</span>
+              <span class="faq-icon text-2xl text-teal">+</span>
+            </button>
+            <div class="faq-answer">
+              <p class="pb-6 leading-7 text-slate">No. We focus on websites, practical brand design and video editing. Marketing strategy, advertising and social-media management are only included when explicitly scoped with a qualified specialist.</p>
+            </div>
+          </div>
+          <div class="faq" data-open="false">
+            <button class="faq-button flex w-full items-center justify-between gap-6 py-6 text-left text-lg font-semibold" aria-expanded="false">
+              <span>Can I start with a project and continue monthly?</span>
+              <span class="faq-icon text-2xl text-teal">+</span>
+            </button>
+            <div class="faq-answer">
+              <p class="pb-6 leading-7 text-slate">Yes. Many clients begin with a website or launch package, then move into website care, creative support or a combined monthly plan.</p>
+            </div>
+          </div>
+          <div class="faq" data-open="false">
+            <button class="faq-button flex w-full items-center justify-between gap-6 py-6 text-left text-lg font-semibold" aria-expanded="false">
+              <span>What do I need to provide for video editing?</span>
+              <span class="faq-icon text-2xl text-teal">+</span>
+            </button>
+            <div class="faq-answer">
+              <p class="pb-6 leading-7 text-slate">You provide suitable raw footage, brand assets and the intended message. Filming, scripting and voice-over can be scoped separately when suitable partners are available.</p>
+            </div>
+          </div>
+          <div class="faq" data-open="false">
+            <button class="faq-button flex w-full items-center justify-between gap-6 py-6 text-left text-lg font-semibold" aria-expanded="false">
+              <span>Do monthly plans include unlimited requests?</span>
+              <span class="faq-icon text-2xl text-teal">+</span>
+            </button>
+            <div class="faq-answer">
+              <p class="pb-6 leading-7 text-slate">No. Each plan defines its monthly allowance, revision limits, turnaround time and active requests so delivery remains predictable.</p>
+            </div>
+          </div>
+          <div class="faq" data-open="false">
+            <button class="faq-button flex w-full items-center justify-between gap-6 py-6 text-left text-lg font-semibold" aria-expanded="false">
+              <span>Can you build a custom web application?</span>
+              <span class="faq-icon text-2xl text-teal">+</span>
+            </button>
+            <div class="faq-answer">
+              <p class="pb-6 leading-7 text-slate">Yes. Portals, dashboards and workflow tools are separately scoped because their requirements vary significantly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="projectModal" class="fixed inset-0 z-[100] hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="modalSummary">
+      <button id="modalBackdrop" class="absolute inset-0 h-full w-full bg-ink/80 backdrop-blur-sm" aria-label="Close project details"></button>
+      <div class="relative mx-auto flex min-h-full max-w-5xl items-center px-4 py-8 sm:px-8">
+        <div id="modalPanel" class="relative max-h-[90vh] w-full overflow-y-auto rounded-[2rem] bg-cream shadow-2xl">
+          <div class="sticky top-0 z-10 flex items-start justify-between gap-5 border-b border-ink/10 bg-cream/95 px-6 py-5 backdrop-blur sm:px-9">
+            <div>
+              <p id="modalCategory" class="eyebrow text-xs font-bold uppercase text-teal">Case study</p>
+              <h2 id="modalTitle" class="mt-2 text-2xl font-semibold sm:text-3xl">Project title</h2>
+            </div>
+            <button id="modalClose" class="grid h-11 w-11 shrink-0 place-items-center rounded-full border border-ink/15 text-2xl transition hover:border-teal hover:text-teal" aria-label="Close project details">×</button>
+          </div>
+          <div class="grid gap-8 p-6 sm:p-9 lg:grid-cols-[.9fr_1.1fr]">
+            <div>
+              <div class="placeholder aspect-[4/3] overflow-hidden rounded-[1.5rem] border border-ink/10 bg-mist">
+                <img id="modalImage" src="" alt="" class="h-full w-full object-cover" />
+              </div>
+              <div class="mt-5 rounded-2xl border border-ink/10 bg-white p-5">
+                <p class="text-xs font-bold uppercase tracking-wider text-teal">Services</p>
+                <ul id="modalServices" class="mt-3 flex flex-wrap gap-2"></ul>
+              </div>
+              <a id="modalWebsiteLink" href="#" target="_blank" rel="noopener" class="mt-5 inline-flex items-center gap-2 font-bold text-teal hover:text-ink">Visit website →</a>
+            </div>
+            <div>
+              <p id="modalSummary" class="text-lg leading-8 text-slate">Project summary will be added here.</p>
+              <div class="mt-8 space-y-7">
+                <div>
+                  <p class="text-xs font-bold uppercase tracking-wider text-teal">The challenge</p>
+                  <p id="modalChallenge" class="mt-2 leading-7 text-slate"></p>
+                </div>
+                <div>
+                  <p class="text-xs font-bold uppercase tracking-wider text-teal">What we delivered</p>
+                  <p id="modalSolution" class="mt-2 leading-7 text-slate"></p>
+                </div>
+                <div class="rounded-2xl bg-ink p-6 text-white">
+                  <p class="text-xs font-bold uppercase tracking-wider text-teal-200">The outcome</p>
+                  <p id="modalOutcome" class="mt-2 leading-7 text-white/75"></p>
+                </div>
+              </div>
+              <a id="modalCta" href="#contact" class="mt-8 inline-flex rounded-full bg-teal px-6 py-3.5 font-bold text-white transition hover:bg-ink">Start a similar project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="contact" class="bg-teal py-20 text-white sm:py-28">
+      <div class="mx-auto grid max-w-7xl gap-12 px-5 sm:px-8 lg:grid-cols-[.8fr_1.2fr]">
+        <div>
+          <p class="eyebrow text-xs font-bold uppercase text-white/70">Start a conversation</p>
+          <h2 class="balance mt-4 text-4xl font-semibold tracking-[-.04em] sm:text-5xl">Tell us what you are trying to build.</h2>
+          <p class="mt-6 text-lg leading-8 text-white/75">A short brief is enough. We will respond with the right questions and recommend a practical next step.</p>
+          <div class="mt-9 space-y-3 text-sm">
+            <p><span class="font-bold">Email:</span> <a target="_blank" href="mailto:admin@boxandtrianz.com" class="text-white/75">admin@boxandtrianz.com</a></p>
+            <p><span class="font-bold">WhatsApp:</span> <a target="_blank" href="https://wa.me/+2348069142808" class="text-white/75">Box and Trianz</a></p>
+          </div>
+        </div>
+        <form id="contactForm" class="rounded-[2rem] bg-white p-6 text-ink shadow-soft sm:p-9">
+          <div class="grid gap-5 sm:grid-cols-2">
+            <label class="block text-sm font-bold">Name
+              <input name="name" required class="mt-2 w-full rounded-xl border border-ink/15 px-4 py-3 font-normal outline-none focus:border-teal focus:ring-2 focus:ring-teal/15" placeholder="Your name">
+            </label>
+            <label class="block text-sm font-bold">Email
+              <input name="email" type="email" required class="mt-2 w-full rounded-xl border border-ink/15 px-4 py-3 font-normal outline-none focus:border-teal focus:ring-2 focus:ring-teal/15" placeholder="you@company.com">
+            </label>
+          </div>
+          <label class="mt-5 block text-sm font-bold">Business or project
+            <input name="business" class="mt-2 w-full rounded-xl border border-ink/15 px-4 py-3 font-normal outline-none focus:border-teal focus:ring-2 focus:ring-teal/15" placeholder="Business name or project type">
+          </label>
+          <label class="mt-5 block text-sm font-bold">What do you need help with?
+            <select name="service" class="mt-2 w-full rounded-xl border border-ink/15 bg-white px-4 py-3 font-normal outline-none focus:border-teal focus:ring-2 focus:ring-teal/15">
+              <option>Website or web solution</option>
+              <option>Brand design</option>
+              <option>Video editing</option>
+              <option>One-time launch package</option>
+              <option>Monthly support</option>
+              <option>Not sure yet</option>
+            </select>
+          </label>
+          <label class="mt-5 block text-sm font-bold">Brief description
+            <textarea name="message" required rows="4" class="mt-2 w-full resize-y rounded-xl border border-ink/15 px-4 py-3 font-normal outline-none focus:border-teal focus:ring-2 focus:ring-teal/15" placeholder="What are you trying to achieve?"></textarea>
+          </label>
+          <button class="mt-6 w-full rounded-full bg-ink px-7 py-4 font-bold text-white transition hover:bg-teal" type="submit">Prepare email enquiry</button>
+          <p id="formNote" class="mt-4 text-center text-xs leading-5 text-slate">We'll never share your details. Typically respond within one business day.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-ink py-10 text-white">
+    <div class="mx-auto flex max-w-7xl flex-col gap-7 px-5 sm:px-8 md:flex-row md:items-center md:justify-between">
+      <img src="assets/logo/box-and-trianz-logo-footer-white.svg" alt="Box & Trianz" class="h-9 w-auto brightness-0 invert">
+      <p class="text-sm text-white/55">Websites, design and video for growing businesses.</p>
+      <p class="text-sm text-white/55">© <span id="year"></span> Box &amp; Trianz.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
